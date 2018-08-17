@@ -1,0 +1,42 @@
+body {
+    background-color: #000000;
+    Color: #f2f2f2;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #262626;
+    display: block;
+}
+
+.sidenav a {
+    padding: 5px 10px 5px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f2f2f2;
+    display: block;
+    text-align: left;
+}
+
+.sidenav a:hover {
+    background-color: #000000;
+}
+
+.main {
+    margin-left: 250px;
+    font-size: 25px;
+}
